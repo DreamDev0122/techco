@@ -22,7 +22,7 @@ const testimonial = [
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
         Name: 'Maverick Phoenix',
         sub: 'Board Member, UNIQA',
-        country: 'Seattle, Ukraine',
+        country: 'Florida, US',
     },
     {
         id: '02',
@@ -31,7 +31,7 @@ const testimonial = [
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
         Name: 'Maverick Phoenix',
         sub: 'Board Member, UNIQA',
-        country: 'Seattle, Ukraine',
+        country: 'TX, US',
     },
     {
         id: '03',
@@ -40,7 +40,7 @@ const testimonial = [
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
         Name: 'Maverick Phoenix',
         sub: 'Board Member, UNIQA',
-        country: 'Seattle, Ukraine',
+        country: 'London, UK',
     },
 ]
 
@@ -132,9 +132,6 @@ const Testimonial = () => {
                                                     <h4 className="review_admin_name">{testimonial.Name}</h4>
                                                     <span className="review_admin_designation">{testimonial.sub}</span>
                                                     <div className="review_admin_country">
-                                                        <span className="country_flag">
-                                                            <img src={flag} alt="Ukraine Flag" />
-                                                        </span>
                                                         <span className="country_text">{testimonial.country}</span>
                                                     </div>
                                                 </div>

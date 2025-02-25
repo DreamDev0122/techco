@@ -79,11 +79,11 @@ const Services = [
         features: ['Smart Contract Development', 'Token ICO', 'Web3 Frontend Development', 'Smart Contract Audit']
     },
     {
-        Id: '7',
-        sImg:icon2,
-        title: 'Audit & IT Consulting Services',
-        slug: 'Audit-&-IT-Consulting-Services',
-        features: ['TechGuard Audit', 'CyberSafe Audit & IT Consulting', 'AssuranceEdge & IT Consulting', 'IT Sentry Audit & IT Consulting']
+        Id: '10',
+        sImg:icon5,
+        title: 'Scraping & bot & Extensions',
+        slug: 'Scraping & bot & Extensions',
+        features: ['Web Scraping', 'Telegram/Discord/Slack Bot', 'Chrome/Firefox extension', 'Trading Bot']
     },
     {
         Id: '8',
@@ -100,11 +100,11 @@ const Services = [
         features: ['Android development services', 'iOS app development services', 'Mobile application design services', 'Enterprise mobile app development']
     },
     {
-        Id: '10',
-        sImg:icon5,
-        title: 'Best UI/UX Design Services',
-        slug: 'Best-UI/UX-Design-Services',
-        features: ['PixelPerfection UI/UX Design', 'DesignCraft UI/UX Design', 'CreativeWave UI/UX Design', 'InterfaceGenius UI/UX Design']
+        Id: '7',
+        sImg:icon2,
+        title: 'Audit & IT Consulting Services',
+        slug: 'Audit-&-IT-Consulting-Services',
+        features: ['TechGuard Audit', 'CyberSafe Audit & IT Consulting', 'AssuranceEdge & IT Consulting', 'IT Sentry Audit & IT Consulting']
     },
     {
         Id: '11',

@@ -155,7 +155,7 @@ const About = (props) => {
           </div>
 
           <div className="btns_group pb-0">
-            <Link onClick={ClickHandler} to="/" className="btn btn-primary">
+            <Link onClick={ClickHandler} to="/portfolio" className="btn btn-primary">
               <span className="btn_label" data-text="View More Cases Study">View More Cases Study</span>
               <span className="btn_icon">
                 <i className="fa-solid fa-arrow-up-right"></i>

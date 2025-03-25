@@ -38,87 +38,13 @@ const FaqSection = (props) => {
                     <Accordion open={open} toggle={toggle} className="accordion" id="service_process_faq">
                         <AccordionItem className="accordion-item">
                             <AccordionHeader targetId="1">
-                                Q. How to choose a software development company?
+                                Q. Why hire a custom software development company?
                             </AccordionHeader>
                             <AccordionBody accordionId="1" className='acc_body'>
-                                <div className="text_a">A.</div>
                                 <p>
-                                    A custom software development company is a vendor that builds unique software from scratch. Also, such vendors provide a range of other useful services like software upgrades,Here is an extended list of services:
+                                One of the main reasons to hire a custom software development company is the level of expertise they bring to the table. Development companies have teams of skilled developers on tap who have a deep understanding of the programming languages, frameworks, and technologies relevant to your project. They autonomously work on developing your software and making it efficient, reliable, and scalable. In the meantime, you can focus on your core business tasks.
+                                Another reason to hire a custom software programming services company is the level of customization they offer. Custom development partners build tailored solutions that are specifically designed for your unique business requirements. This means that you pay only for the exact features and functionality you need, without any frills.
                                 </p>
-                                <div className="row">
-                                    <div className="col-md-6">
-                                        <ul className="icon_list unordered_list_block">
-                                            <li>
-                                                <span className="icon_list_icon">
-                                                    <i className="fa-solid fa-circle fa-fw"></i>
-                                                </span>
-                                                <span className="icon_list_text">
-                                                    Web and mobile app development
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <span className="icon_list_icon">
-                                                    <i className="fa-solid fa-circle fa-fw"></i>
-                                                </span>
-                                                <span className="icon_list_text">
-                                                    Software architecture
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <span className="icon_list_icon">
-                                                    <i className="fa-solid fa-circle fa-fw"></i>
-                                                </span>
-                                                <span className="icon_list_text">
-                                                    IT consulting and audit
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <span className="icon_list_icon">
-                                                    <i className="fa-solid fa-circle fa-fw"></i>
-                                                </span>
-                                                <span className="icon_list_text">
-                                                    Legacy system modernization
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <ul className="icon_list unordered_list_block">
-                                            <li>
-                                                <span className="icon_list_icon">
-                                                    <i className="fa-solid fa-circle fa-fw"></i>
-                                                </span>
-                                                <span className="icon_list_text">
-                                                    Cloud computing
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <span className="icon_list_icon">
-                                                    <i className="fa-solid fa-circle fa-fw"></i>
-                                                </span>
-                                                <span className="icon_list_text">
-                                                    QA and testing
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <span className="icon_list_icon">
-                                                    <i className="fa-solid fa-circle fa-fw"></i>
-                                                </span>
-                                                <span className="icon_list_text">
-                                                    Business analysis
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <span className="icon_list_icon">
-                                                    <i className="fa-solid fa-circle fa-fw"></i>
-                                                </span>
-                                                <span className="icon_list_text">
-                                                    IT staffing services
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </AccordionBody>
                         </AccordionItem>
                         <AccordionItem className="accordion-item">
@@ -126,7 +52,6 @@ const FaqSection = (props) => {
                                 Q. What is a custom software development company?
                             </AccordionHeader>
                             <AccordionBody accordionId="2" className='acc_body'>
-                                <div className="text_a">A.</div>
                                 <p>
                                     A custom software development company is a vendor that builds unique software from scratch. Also, such vendors provide a range of other useful services like software upgrades,Here is an extended list of services:
                                 </p>
@@ -211,7 +136,6 @@ const FaqSection = (props) => {
                                 Q. Why do businesses need custom software development?
                             </AccordionHeader>
                             <AccordionBody accordionId="3" className='acc_body'>
-                                <div className="text_a">A.</div>
                                 <p>
                                     A custom software development company is a vendor that builds unique software from scratch. Also, such vendors provide a range of other useful services like software upgrades,Here is an extended list of services:
                                 </p>
@@ -296,7 +220,6 @@ const FaqSection = (props) => {
                                 Q. How much does custom software development cost?
                             </AccordionHeader>
                             <AccordionBody accordionId="4" className='acc_body'>
-                                <div className="text_a">A.</div>
                                 <p>
                                     A custom software development company is a vendor that builds unique software from scratch. Also, such vendors provide a range of other useful services like software upgrades,Here is an extended list of services:
                                 </p>
@@ -381,7 +304,6 @@ const FaqSection = (props) => {
                                 Q. Why custom software development is important?
                             </AccordionHeader>
                             <AccordionBody accordionId="5" className='acc_body'>
-                                <div className="text_a">A.</div>
                                 <p>
                                     A custom software development company is a vendor that builds unique software from scratch. Also, such vendors provide a range of other useful services like software upgrades,Here is an extended list of services:
                                 </p>

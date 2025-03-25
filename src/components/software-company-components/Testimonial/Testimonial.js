@@ -20,27 +20,27 @@ const testimonial = [
         tImg: tImg1,
         Title: 'Amazing software services',
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
-        sub: 'Board Member, UNIQA',
+        Name: 'Ricardo Thompson',
+        sub: 'Director, isolved',
         country: 'Florida, US',
     },
     {
         id: '02',
         tImg: tImg2,
-        Title: 'Amazing software services',
-        Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
-        sub: 'Board Member, UNIQA',
+        Title: 'Exceptional Support and Results',
+        Des: "Their team provided outstanding solutions that streamlined our operations and accelerated product development. Their expert advice helped us align our product strategy with our business goals, resulting in a successful and timely launch.",
+        Name: 'Kristi DeCarolis',
+        sub: 'Principal Product Manager, Paylocity',
         country: 'TX, US',
     },
     {
         id: '03',
         tImg: tImg3,
-        Title: 'Amazing software services',
-        Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
-        sub: 'Board Member, UNIQA',
-        country: 'London, UK',
+        Title: 'Reliable and Innovative Partnership',
+        Des: "Working with them has been a game-changer for our business. Their technical expertise and strategic insights have helped us overcome challenges and deliver a high-quality product on schedule.",
+        Name: 'Garrett Doman',
+        sub: 'Solutions Engineer, Oracle',
+        country: 'NY, US',
     },
 ]
 
@@ -135,9 +135,6 @@ const Testimonial = () => {
                                                         <span className="country_text">{testimonial.country}</span>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className="review_admin_logo">
-                                                <img src={clogo} alt="Review Admin Logo" />
                                             </div>
                                         </div>
                                     </div>

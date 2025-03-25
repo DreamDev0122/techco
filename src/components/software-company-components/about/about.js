@@ -86,10 +86,10 @@ const About = (props) => {
                   About Us
                 </div>
                 <h2 className="heading_text">
-                  Techco <mark>Mission & Goal</mark>
+                  BillulloNex <mark>Mission & Goal</mark>
                 </h2>
                 <p className="heading_description mb-0">
-                  At Techco, our mission is to empower businesses through innovative software solutions that streamline operations, foster growth, and drive success. With a commitment to excellence and customer satisfaction we strive.
+                  At BillulloNex, our mission is to empower businesses through innovative software solutions that streamline operations, foster growth, and drive success. With a commitment to excellence and customer satisfaction we strive.
                 </p>
               </div>
             </div>

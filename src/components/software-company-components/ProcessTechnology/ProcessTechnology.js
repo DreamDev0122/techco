@@ -46,7 +46,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="1" className='acc_body'>
                                     <p className="m-0">
-                                        Data - driven diagnostic and predictive app for improving  outcomes Data driven diagnostic and predictive app for improving.
+                                        In this phase, the team gathers requirements, identifies business goals, and analyzes the existing data environment. A feasibility study and market analysis are conducted to define the project scope and objectives.
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>
@@ -56,7 +56,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="2" className='acc_body'>
                                     <p className="m-0">
-                                        Data - driven diagnostic and predictive app for improving  outcomes Data driven diagnostic and predictive app for improving.
+                                        Based on the discovery phase insights, the system architecture, user interface, and data flow are designed. The development team builds the app, integrating predictive models and data processing pipelines.
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>
@@ -66,7 +66,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="3" className='acc_body'>
                                     <p className="m-0">
-                                        Data - driven diagnostic and predictive app for improving  outcomes Data driven diagnostic and predictive app for improving.
+                                        Post-deployment, the app is monitored for performance issues, bugs, and user feedback. Regular updates and optimizations are applied to improve functionality and data accuracy.
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>
@@ -76,7 +76,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="4" className='acc_body'>
                                     <p className="m-0">
-                                        Data - driven diagnostic and predictive app for improving  outcomes Data driven diagnostic and predictive app for improving.
+                                        The app is released into the production environment, ensuring smooth integration with existing systems. Deployment strategies like CI/CD are used to minimize downtime and disruptions.
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>
@@ -86,7 +86,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="5" className='acc_body'>
                                     <p className="m-0">
-                                        Data - driven diagnostic and predictive app for improving  outcomes Data driven diagnostic and predictive app for improving.
+                                        Comprehensive testing is performed to validate functionality, performance, and security. User acceptance testing (UAT) ensures the app meets business and user requirements before final release.
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>

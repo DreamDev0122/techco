@@ -198,7 +198,7 @@ const Footer = (props) => {
                     </div> */}
                 </div>
             </div>
-            <div className="footer_bottom">
+            {/* <div className="footer_bottom">
                 <div className="container d-md-flex align-items-md-center justify-content-md-between">
                     <p className="copyright_text m-0">
                         Copyright © 2025 BillulloNex, All rights reserved.
@@ -207,7 +207,7 @@ const Footer = (props) => {
                         Developed by <Link onClick={ClickHandler} to="/">XpressBuddy</Link>
                     </p>
                 </div>
-            </div>
+            </div> */}
         </footer>
     )
 }

@@ -33,16 +33,19 @@ const PortfolioPage = (props) => {
                         <div className="filter_elements_nav">
                             <ul className="unordered_list justify-content-center">
                                 <li className={activeFilter === 'all' ? 'active' : ''} onClick={() => handleFilterClick('all')}>See All</li>
-                                <li className={activeFilter === 'technology' ? 'active' : ''} onClick={() => handleFilterClick('technology')}>Technology</li>
-                                <li className={activeFilter === 'helpdesk' ? 'active' : ''} onClick={() => handleFilterClick('helpdesk')}>Helpdesk</li>
-                                <li className={activeFilter === 'analysis' ? 'active' : ''} onClick={() => handleFilterClick('analysis')}>Analysis</li>
-                                <li className={activeFilter === 'marketing' ? 'active' : ''} onClick={() => handleFilterClick('marketing')}>Marketing</li>
+                                <li className={activeFilter === 'saas' ? 'active' : ''} onClick={() => handleFilterClick('saas')}>SaaS</li>
+                                <li className={activeFilter === 'blockchain' ? 'active' : ''} onClick={() => handleFilterClick('blockchain')}>Blockchain</li>
+                                <li className={activeFilter === 'ecommerce' ? 'active' : ''} onClick={() => handleFilterClick('ecommerce')}>E-commerce</li>
+                                <li className={activeFilter === 'fintech' ? 'active' : ''} onClick={() => handleFilterClick('fintech')}>Fintech</li>
+                                <li className={activeFilter === 'healthcare' ? 'active' : ''} onClick={() => handleFilterClick('healthcare')}>Healthcare</li>
+                                <li className={activeFilter === 'edtech' ? 'active' : ''} onClick={() => handleFilterClick('edtech')}>EdTech</li>
+                                <li className={activeFilter === 'aiml' ? 'active' : ''} onClick={() => handleFilterClick('aiml')}>AI/ML</li>
                             </ul>
                         </div>
                         <div className="filter_elements_wrapper row">
                             {filteredProjects.map((project, prj) => (
                                 <div className="col-lg-6" key={prj}>
-                                    <div className="portfolio_block portfolio_layout_2">
+                                    <div className="portfolio_block portfolio_layout_2" style={{ height: "100%" }}>
                                         <div className="portfolio_image">
                                             <Link onClick={ClickHandler} className="portfolio_image_wrap bg-light" to={`/portfolio_details/${project.slug}`}>
                                                 <img src={project.pImg} alt="Mobile App Design" />

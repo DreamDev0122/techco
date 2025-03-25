@@ -21,6 +21,14 @@ import tImg3 from '../images/case/icon_netcore.svg'
 import tImg4 from '../images/case/vuejs.svg'
 import tImg5 from '../images/case/icon_python.svg'
 
+import nektarImg from '../images/portfolio/nektar.png'
+import studentCircusImg from '../images/portfolio/student-circus.png'
+import ibnTechImg from '../images/portfolio/ibn-tech.png'
+import mainSqueezeJuiceImg from '../images/portfolio/mainsqueezejuice.png'
+import valeHealthImg from '../images/portfolio/vale.png'
+import upscImg from '../images/portfolio/upsc.png'
+import fixMyPhoneImg from '../images/portfolio/fixmyphone.png'
+import crustPizzaImg from '../images/portfolio/crustpizza.png'
 
 const Project = [
     {
@@ -109,77 +117,141 @@ const Project = [
     },
     {
         Id: '10',
-        pImg: pImg7,
-        title: 'Driving Digital Transformation Explore the Depth of Our IT Projects',
-        slug: 'Driving-Digital-Transformation-Explore-the-Depth-of-Our-IT Projects',
-        thumb1: 'Logo Design',
-        thumb2: 'Finance',
-        category: 'technology',
+        pImg: nektarImg,
+        title: 'Nektar.ai',
+        slug: 'nektar-ai',
+        thumb1: 'AI/ML',
+        thumb2: 'SaaS',
+        category: 'aiml',
+        description: 'AI-driven platform transforming customer interactions and Salesforce data into actionable insights.',
+        features: [
+            'AI-powered Salesforce activity capture',
+            'Customer insights and relationship monitoring',
+            'Meeting quality analysis',
+            'Decision maker analysis',
+            'OCR creation'
+        ],
+        technologies: [
+            'WordPress 6.7.2',
+            'Elementor',
+            'Particles.js',
+            'Goober',
+            'jQuery'
+        ]
     },
     {
         Id: '17',
-        pImg: pImg8,
-        title: 'Explore Our IT Solutions Portfolio for Public Sector Organizations',
-        slug: 'Explore-Our-IT-Solutions',
-        thumb1: 'App Design',
-        thumb2: 'Public',
-        category:'helpdesk'
+        pImg: studentCircusImg,
+        title: 'Student Circus',
+        slug: 'student-circus',
+        thumb1: 'Career Platform',
+        thumb2: 'Global Jobs',
+        category: 'saas',
+        description: 'Global career platform connecting international students with visa-sponsored job opportunities.',
+        features: [
+            'Visa-sponsored job listings',
+            'Immigration Guide',
+            'Job Seekers Toolkit',
+            'Country Guides',
+            'University partnerships'
+        ],
+        technologies: [
+            'Vue.js',
+            'Nginx',
+            'PrimeVue',
+            'jQuery 3.5.1',
+            'AccessiBe'
+        ]
     },
     {
-        Id: '18',
-        pImg: pImg9,
-        title: 'Innovative Solutions Showcase the Diversity of Our IT Portfolio',
-        slug: 'Innovative-Solutions-Showcase-the-Diversity-of-Our-IT-Portfolio',
-        thumb1: 'Card Design',
-        thumb2: 'Transpiration',
-        category:'analysis'
+        Id: '12',
+        pImg: ibnTechImg,
+        title: 'IBN Technologies',
+        slug: 'ibn-technologies',
+        thumb1: 'Finance',
+        thumb2: 'Back Office',
+        category: 'saas',
+        description: 'Comprehensive finance, accounting, IPA, and IT services provider with 25+ years experience.',
+        features: [
+            'Finance & Accounting Services',
+            'Intelligent Process Automation',
+            'IT & Cloud Solutions',
+            'CFO & Treasury Management'
+        ],
+        technologies: [
+            'WordPress',
+            'Yoast SEO',
+            'Google Analytics',
+            'Microsoft Clarity'
+        ]
     },
     {
-        Id: '19',
-        pImg: pImg10,
-        title: 'Tech Triumphs Celebrating Our Achievements in IT Solutions',
-        slug: 'Tech-Triumphs-Celebrating-Our-Achievements-in-IT-Solutions',
-        thumb1: 'Web Design',
-        thumb2: 'Logistic',
-        category: 'technology',
+        Id: '13',
+        pImg: valeHealthImg,
+        title: 'Vale Health Clinic',
+        slug: 'vale-health',
+        thumb1: 'Healthcare',
+        thumb2: 'UK',
+        category: 'healthcare',
+        description: 'Specialized healthcare provider offering chiropractic care and therapeutic treatments.'
     },
     {
-        Id: '20',
-        pImg: pImg11,
-        title: 'Revolutionizing IT Strategies A Closer Look at Our Dynamic IT Solutions',
-        slug: 'Revolutionizing-IT-Strategies-A-Closer-Look-at-Our-Dynamic-IT-Solutions',
-        thumb1: 'Web Design',
-        thumb2: 'Fution',
-        category: 'analysis',
+        Id: '14',
+        pImg: upscImg,
+        title: 'Saurabh Pandey UPSC',
+        slug: 'saurabh-pandey',
+        thumb1: 'Education',
+        thumb2: 'UPSC',
+        category: 'edtech',
+        description: 'Premier EdTech platform for UPSC preparation with comprehensive study materials.'
     },
     {
-        Id: '21',
-        pImg: pImg12,
-        title: 'Cloud Migration and Integration Project IT Solutions Portfolio',
-        slug: 'Cloud-Migration-and-Integration-Project-IT-Solutions-Portfolio',
-        thumb1: 'Web Design',
-        thumb2: 'Energy',
-        category: 'helpdesk'
+        Id: '15',
+        pImg: mainSqueezeJuiceImg,
+        title: 'Main Squeeze Juice Co',
+        slug: 'main-squeeze',
+        thumb1: 'E-commerce',
+        thumb2: 'Health & Wellness',
+        category: 'ecommerce',
+        description: 'Premium health brand specializing in cold-pressed juices and superfood smoothies.'
     },
     {
-        Id: '22',
-        pImg: pImg13,
-        title: 'Pioneering Progress Exploring the Evolution and Impact of',
-        slug: 'Pioneering-Progress-Exploring-the-Evolution-and-Impact-of',
-        thumb1: 'Web Design',
-        thumb2: 'Health',
-        category: 'marketing'
+        Id: '16',
+        pImg: fixMyPhoneImg,
+        title: 'FixMyPhone',
+        slug: 'fix-my-phone',
+        thumb1: 'E-commerce',
+        thumb2: 'Device Repair',
+        category: 'ecommerce',
+        description: 'Leading device repair service specializing in phones, tablets, laptops with lifetime warranty on part defects.',
+        technologies: [
+            'WordPress',
+            'PHP 8.1.21',
+            'Bootstrap 3.3.2',
+            'jQuery 2.1.1',
+            'Moment.js 2.8.3',
+            'Cloudflare'
+        ]
     },
     {
-        Id: '23',
-        pImg: pImg14,
-        title: 'Unlocking Potential Explore Our Comprehensive IT Portfolio',
-        slug: 'Unlocking-Potential-Explore-Our-Comprehensive-IT-Portfolio',
-        thumb1: 'Web Design',
-        thumb2: 'Industry',
-        category: 'technology',
+        Id: '11',
+        pImg: crustPizzaImg,
+        title: 'Crust Pizza Co',
+        slug: 'crust-pizza',
+        thumb1: 'E-commerce',
+        thumb2: 'Restaurant',
+        category: 'ecommerce',
+        description: 'Premium pizza restaurant with online ordering platform, featuring fresh handcrafted ingredients and daily prepared dough.',
+        technologies: [
+            'PHP',
+            'AWS',
+            'AngularJS',
+            'Bootstrap',
+            'jQuery 3.7.1',
+            'FancyBox 5.0.30',
+            'Amazon S3 CDN'
+        ]
     },
-
 ]
 
 export default Project;

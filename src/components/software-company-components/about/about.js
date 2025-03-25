@@ -107,14 +107,14 @@ const About = (props) => {
           </div>
 
           <div className="case_studies_wrapper">
-            {Project.slice(6, 9).map((project, prj) => (
+            {Project.slice(0, 3).map((project, prj) => (
               <div className="case_study_block" key={prj}>
                 <div className="case_study_image">
-                  <img src={project.pImg} alt="Techco - Cases" />
+                  <img src={project.pImg} alt={project.title} />
                 </div>
                 <div className="case_study_content">
                   <ul className="category_list unordered_list text-uppercase">
-                    <li><a href="portfolio.html">{project.sub}</a></li>
+                    <li><Link to={`/portfolio_details/${project.slug}`}>{project.category}</Link></li>
                   </ul>
                   <h3 className="case_title">
                     <Link onClick={ClickHandler} to={`/portfolio_details/${project.slug}`}>{project.title}</Link>
@@ -125,25 +125,28 @@ const About = (props) => {
                   <ul className="icon_list unordered_list">
                     <li>
                       <span className="icon_list_text">
-                        <strong className="text-dark">Industry:</strong> {project.Industry}
+                        <strong className="text-dark">Type:</strong> {project.thumb1}
                       </span>
                     </li>
                     <li>
                       <span className="icon_list_text">
-                        <strong className="text-dark">Country:</strong> {project.Country}
+                        <strong className="text-dark">Industry:</strong> {project.thumb2}
                       </span>
                     </li>
                   </ul>
-                  <ul className="case_technologies unordered_list" data-text="Core Technologies:">
-                    <li>
-                      <img src={project.Technologies1} alt="Angular" />
-                    </li>
-                    <li>
-                      <img src={project.Technologies2} alt="Elephent" />
-                    </li>
-                  </ul>
-                  {/* <Link onClick={ClickHandler} to={`/portfolio_details/${project.slug}`} className="btn btn-primary"> */}
-                  <Link to={`/`} className="btn btn-primary">
+                  {project.technologies && (
+                    <div className="case_technologies mt-4">
+                      <strong className="text-dark d-block mb-2">Core Technologies:</strong>
+                      <ul className="technologies_list unordered_list">
+                        {project.technologies.slice(0, 4).map((tech, index) => (
+                          <li key={index} className="tech_item">
+                            {tech}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  <Link onClick={ClickHandler} to={`/portfolio_details/${project.slug}`} className="btn btn-primary">
                     <span className="btn_label" data-text="Read Case">Read Case</span>
                     <span className="btn_icon">
                       <i className="fa-solid fa-arrow-up-right"></i>

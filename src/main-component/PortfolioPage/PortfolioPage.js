@@ -20,8 +20,8 @@ const PortfolioPage = (props) => {
     }
 
     const filteredProjects = activeFilter === 'all'
-        ? Project.slice(9, 18)
-        : Project.slice(9, 18).filter(project => project.category === activeFilter);
+        ? Project
+        : Project.filter(project => project.category === activeFilter);
 
     return (
         <Fragment>

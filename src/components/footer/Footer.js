@@ -56,7 +56,7 @@ const Footer = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="footer_main_content">
+                    {/* <div className="footer_main_content">
                         <div className="row justify-content-lg-between">
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="footer_widget pe-md-3">
@@ -195,7 +195,7 @@ const Footer = (props) => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="footer_bottom">

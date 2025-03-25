@@ -57,7 +57,7 @@ const Header = (props) => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-7 col-2">
-                           <nav className="main_menu navbar navbar-expand-lg">
+                            {/* <nav className="main_menu navbar navbar-expand-lg">
                                 <div className="main_menu_inner collapse navbar-collapse justify-content-lg-center" id="main_menu_dropdown">
                                     <ul className="main_menu_list unordered_list justify-content-center">
                                         <li className="dropdown">
@@ -499,10 +499,10 @@ const Header = (props) => {
                                         <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                                     </ul>
                                 </div>
-                            </nav> 
+                            </nav>  */}
                         </div>
                         <div className="col-xl-3 col-lg-3 col-5">
-                            <ul className="header_btns_group unordered_list justify-content-end">
+                            {/* <ul className="header_btns_group unordered_list justify-content-end">
                                 <li>
                                     <button className="mobile_menu_btn" onClick={() => setMobailState(!mobailActive)} type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
                                         <i className="far fa-bars"></i>
@@ -516,7 +516,7 @@ const Header = (props) => {
                                         </span>
                                     </Link>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>

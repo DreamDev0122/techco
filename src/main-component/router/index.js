@@ -22,20 +22,21 @@ const AllRoute = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage2 />} />
-          <Route path="home" element={<Homepage />} />
+          <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="portfolio_details/:slug" element={<PortfolioSinglePage />} />
+
+          {/* <Route path="home" element={<Homepage />} />
           <Route path="home_software_company" element={<HomePage2 />} />
           <Route path="home_business_consulting" element={<HomePage3 />} />
           <Route path="about" element={<AboutUsPage />} />
           <Route path="pricing" element={<PricingPage />} />
-          <Route path="portfolio" element={<PortfolioPage />} />
-          <Route path="portfolio_details/:slug" element={<PortfolioSinglePage />} />
           <Route path="team" element={<TeamPage />} />
           <Route path="team-single/:slug" element={<TeamSinglePage />} />
           <Route path="service" element={<ServicePage />} />
           <Route path="service-single/:slug" element={<ServiceSinglePage />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog-single/:slug" element={<BlogDetails />} />
-          <Route path="contact" element={<ContactPage />} />  
+          <Route path="contact" element={<ContactPage />} />   */}
         </Routes>
       </BrowserRouter>
 

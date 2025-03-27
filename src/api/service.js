@@ -72,20 +72,6 @@ const Services = [
         description:'Expert Guidance for a Seamless Immigration Journey Expert Guidance...',
     },
     {
-        Id: '6',
-        sImg:icon1,
-        title: 'Blockchain Development & Consulting',
-        slug: 'Blockchain Service',
-        features: ['Smart Contract Development', 'Token ICO', 'Web3 Frontend Development', 'Smart Contract Audit']
-    },
-    {
-        Id: '10',
-        sImg:icon5,
-        title: 'Scraping & bot & Extensions',
-        slug: 'Scraping & bot & Extensions',
-        features: ['Web Scraping', 'Telegram/Discord/Slack Bot', 'Chrome/Firefox extension', 'Trading Bot']
-    },
-    {
         Id: '8',
         sImg:icon3,
         title: 'Web Application Design and Development',
@@ -93,11 +79,32 @@ const Services = [
         features: ['Web app development services', 'Web portal development services', 'Website development services', 'Offshore web development']
     },
     {
+        Id: '6',
+        sImg:icon1,
+        title: 'Blockchain Development & Consulting',
+        slug: 'Blockchain Service',
+        features: ['Smart Contract Development', 'Token ICO', 'Web3 Frontend Development', 'Smart Contract Audit']
+    },
+    {
+        Id: '11',
+        sImg:icon6,
+        title: 'Artificial Intelligence & Machine Learning',
+        slug: 'AI',
+        features: ['AI Chatbot', 'Speech & Audio AI', 'Computer Vision', 'AI Model Traning & Deep Learning']
+    },
+    {
+        Id: '10',
+        sImg:icon5,
+        title: 'Scraping & bot & Extensions',
+        slug: 'Scraping & bot & Extensions',
+        features: ['Web Scraping', 'Telegram/Discord/Slack Bot', 'Chrome/Firefox Extension', 'Trading Bot']
+    },
+    {
         Id: '9',
         sImg:icon4,
         title: 'Mobile App Design and Development',
         slug: 'Mobile-App-Design-and-Development',
-        features: ['Android development services', 'iOS app development services', 'Mobile application design services', 'Enterprise mobile app development']
+        features: ['Android development services', 'IOS app development services', 'Mobile application design services', 'Enterprise mobile app development']
     },
     {
         Id: '7',
@@ -105,13 +112,6 @@ const Services = [
         title: 'Audit & IT Consulting Services',
         slug: 'Audit-&-IT-Consulting-Services',
         features: ['TechGuard Audit', 'CyberSafe Audit & IT Consulting', 'AssuranceEdge & IT Consulting', 'IT Sentry Audit & IT Consulting']
-    },
-    {
-        Id: '11',
-        sImg:icon6,
-        title: 'Maintenance and Customer Support',
-        slug: 'Maintenance-and-Customer-Support',
-        features: ['CareCraft Maintenance', 'FixItPro Maintenance', 'TechCare Maintenance', 'AssistEdge Maintenance']
     },
     {
         Id: '12',

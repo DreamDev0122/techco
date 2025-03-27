@@ -64,12 +64,12 @@ const About = (props) => {
                     <h3 className="funfact_title mb-0">Results Guaranteed</h3>
                   </div>
                 </div>
-                <a className="btn btn-primary" href="/">
+               {/*  <a className="btn btn-primary" href="/">
                   <span className="btn_label" data-text="Learn More">Learn More</span>
                   <span className="btn_icon">
                     <i className="fa-solid fa-arrow-up-right"></i>
                   </span>
-                </a>
+                </a> */}
                 <div className="icon_globe">
                   <img src={aIcon4} alt="Icon Globe" />
                 </div>

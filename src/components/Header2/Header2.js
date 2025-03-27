@@ -17,11 +17,10 @@ import cases from '../../images/case/case_image_4.webp'
 import MobileMenu from '../MobileMenu/MobileMenu'
 
 const Header2 = (props) => {
-
     const [mobailActive, setMobailState] = useState(false);
 
     const ClickHandler = () => {
-        window.scrollTo(10, 0);
+        window.scrollTo(10, 8500);
     }
 
     const [isSticky, setSticky] = useState(false);
@@ -52,7 +51,7 @@ const Header2 = (props) => {
                     <div className="row align-items-center">
                         <div className="col-xl-3 col-lg-2 col-5">
                             <div className="site_logo">
-                                <Link onClick={ClickHandler} className="site_link" to="/">
+                                <Link onClick={ClickHandler} className="site_link" to="">
                                     <img src={logo} alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
                                     <img src={logo2} alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
                                 </Link>

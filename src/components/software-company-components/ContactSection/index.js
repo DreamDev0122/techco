@@ -8,7 +8,7 @@ import shape3 from '../../../images/shapes/shape_space_5.svg'
 
 const ContactSection = (props) => {
     return (
-        <section className="contact_section pb-80 bg-light section_decoration">
+        <section id="start" className="contact_section pb-80 bg-light section_decoration">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4">

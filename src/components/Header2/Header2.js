@@ -504,11 +504,11 @@ const Header2 = (props) => {
                         </div>
                         <div className="col-xl-3 col-lg-3 col-5">
                             <ul className="header_btns_group unordered_list justify-content-end">
-                                <li>
+                               {/*  <li>
                                     <button className="mobile_menu_btn" onClick={() => setMobailState(!mobailActive)} type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
                                         <i className="far fa-bars"></i>
                                     </button>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link onClick={ClickHandler} className="btn btn-primary" to="/">
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
@@ -521,7 +521,7 @@ const Header2 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="mobail-wrap">
+                {/* <div className="mobail-wrap">
                     <div className={`mobail-menu ${mobailActive ? "active" : ""}`}>
                         <div className="xb-header-menu-scroll">
                             <div className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobailState(!mobailActive)}></div>
@@ -531,7 +531,7 @@ const Header2 = (props) => {
                         </div>
                     </div>
                     <div className="xb-header-menu-backdrop" onClick={() => setMobailState(false)}></div>
-                </div>
+                </div> */}
             </div>
         </header>
 

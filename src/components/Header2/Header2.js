@@ -20,7 +20,7 @@ const Header2 = (props) => {
     const [mobailActive, setMobailState] = useState(false);
 
     const ClickHandler = () => {
-        window.scrollTo(10, 8500);
+        window.scrollTo(10, 8700);
     }
 
     const [isSticky, setSticky] = useState(false);

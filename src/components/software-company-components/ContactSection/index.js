@@ -28,15 +28,15 @@ const ContactSection = (props) => {
                                         <span className="icon">
                                             <i className="fa-solid fa-phone-volume"></i>
                                         </span>
-                                        <span className="text">+1 321 426 6402</span>
+                                        <span className="text">+1 305 204 0937</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:Javier@billullo.com">
+                                    <a href="mailto:javier@billullonex.com">
                                         <span className="icon">
                                             <i className="fa-solid fa-envelope"></i>
                                         </span>
-                                        <span className="text">Javier@billullo.com</span>
+                                        <span className="text">javier@billullonex.com</span>
                                     </a>
                                 </li>
                                 <li>

@@ -29,7 +29,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Write to us</h3>
                                 <p className="mb-0">
-                                    Javier@Billullo.com
+                                    javier@billullonex.com
                                 </p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title"> Call Us (USA)</h3>
                                 <p className="mb-0">
-                                    +(1) 321 426 6402
+                                    +(1) 305 204 0937
                                 </p>
                             </div>
                         </div>

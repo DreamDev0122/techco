@@ -47,7 +47,7 @@ const Hero2 = (props) => {
                                         </span>
                                         <span className="hotline_content">
                                             <small>CONTACT US DAILY</small>
-                                            <strong className="text-white">(+1) 321 426 6402 </strong>
+                                            <strong className="text-white">(+1) 305 204 0937 </strong>
                                         </span>
                                     </a>
                                 </li>

@@ -33,7 +33,7 @@ const Hero2 = (props) => {
                             </ul>
                             <ul className="btns_group unordered_list p-0 justify-content-start">
                                 <li>
-                                    <a className="btn" href="/">
+                                    <a className="btn" href="/#start">
                                         <span className="btn_label" data-text="Contact Us Today!">Contact Us Today!</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>

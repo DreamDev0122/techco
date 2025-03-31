@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import { useForm, ValidationError } from '@formspree/react';
 import SimpleReactValidator from 'simple-react-validator';
+import { toast } from 'react-toastify';
 
 const ContactForm = (props) => {
-
+    const [state, handleSubmit] = useForm("myzedabn");
     const [forms, setForms] = useState({
         name: '',
         email: '',
@@ -33,9 +35,21 @@ const ContactForm = (props) => {
                 phone: '',
                 message: ''
             })
+            handleSubmit(e);
+            toast.success('Message sent successfully! We’ll contact you soon.', {
+                position: "bottom-center",
+                autoClose: 5000,
+                hideProgressBar: true,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light"
+            });
         } else {
             validator.showMessages();
         }
+
     };
 
     return (

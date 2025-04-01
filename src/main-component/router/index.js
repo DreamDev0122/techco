@@ -7,7 +7,7 @@ import AboutUsPage from '../AboutUsPage/AboutUsPage';
 import PricingPage from '../PricingPage/PricingPage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import PortfolioSinglePage from '../PortfolioSinglePage/PortfolioSinglePage';
-import TeamPage from '../TeamPage/TeamPage';
+import NewTeamPage from '../NewTeamPage';
 import TeamSinglePage from '../TeamSinglePage/TeamSinglePage';
 import ServicePage from '../ServicePage/ServicePage';
 import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
@@ -24,7 +24,7 @@ const AllRoute = () => {
           <Route path="/" element={<HomePage2 />} />
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route path="portfolio_details/:slug" element={<PortfolioSinglePage />} />
-          <Route path="team" element={<TeamPage />} />
+          <Route path="team" element={<NewTeamPage />} />
 
           {/* <Route path="home" element={<Homepage />} />
           <Route path="home_software_company" element={<HomePage2 />} />

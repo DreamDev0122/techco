@@ -81,7 +81,7 @@ const Services = [
     {
         Id: '6',
         sImg:icon1,
-        title: 'Blockchain Development & Consulting',
+        title: 'Blockchain Development & Consult',
         slug: 'Blockchain Service',
         features: ['Smart Contract Development', 'Token ICO', 'Web3 Frontend Development', 'Smart Contract Audit']
     },

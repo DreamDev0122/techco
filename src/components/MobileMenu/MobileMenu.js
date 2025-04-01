@@ -19,8 +19,7 @@ const menus = [
         title: 'Services',
         link: {
             pathname: "/",
-            search: "",
-            hash: "#services",
+            hash: "#services"
         }
     },
     {
@@ -46,7 +45,6 @@ const menus = [
         title: 'FAQ',
         link: {
             pathname: "/",
-            search: "",
             hash: "#faq",
         }
     }

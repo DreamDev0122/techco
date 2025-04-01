@@ -15,7 +15,7 @@ const ServiceSection = (props) => {
     }
 
     return (
-        <section id="services" className="service_section pt-175 pb-80 bg-light section_decoration xb-hidden">
+        <section id="services"className="service_section pt-175 pb-80 bg-light section_decoration xb-hidden">
             <div className="container">
                 <div className="heading_block text-center">
                     <div className="heading_focus_text has_underline d-inline-flex" style={{ backgroundImage: `url(${Bg})` }}>
@@ -37,9 +37,7 @@ const ServiceSection = (props) => {
                                     {/* <Link onClick={ClickHandler} to={`/service-single/${service.slug}`}>
                                         {service.title}
                                     </Link> */}
-                                    <Link to={`/`}>
                                         {service.title}
-                                    </Link>
                                 </h3>
                                 <ul className="icon_list unordered_list_block">
                                     {service.features.map((feature, featureitem) => (

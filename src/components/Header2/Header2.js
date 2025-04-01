@@ -77,8 +77,7 @@ const Header2 = (props) => {
                                         </li>
                                         <li>
                                             <Link className="nav-link" to={{
-                                                pathname: "",
-                                                search: "",
+                                                pathname: "/",
                                                 hash: "#services",
                                             }}>
                                                 Services
@@ -114,12 +113,15 @@ const Header2 = (props) => {
                                     </button>
                                 </li>
                                 <li>
-                                    <a className="btn" href="/#start">
+                                    <Link className="btn" to={{
+                                                pathname: "/",
+                                                hash: "#start"
+                                    }}>
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

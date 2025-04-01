@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import Project from '../../api/project';
 import { Link } from "react-router-dom";
-import Header from '../../components/header/Header';
+import Header from '../../components/Header2/Header2';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Footer from '../../components/footer/Footer';

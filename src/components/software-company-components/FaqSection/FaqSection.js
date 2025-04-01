@@ -23,7 +23,7 @@ const FaqSection = (props) => {
     };
 
     return (
-        <section className="faq_section section_decoration">
+        <section id="faq" className="faq_section section_decoration">
             <div className="container">
                 <div className="heading_block text-center">
                     <div className="heading_focus_text has_underline d-inline-flex" style={{ backgroundImage: `url(${Bg})` }}>

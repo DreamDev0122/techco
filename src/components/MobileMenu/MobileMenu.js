@@ -8,115 +8,48 @@ const menus = [
     {
         id: 1,
         title: 'Home',
-        link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'IT Solution',
-                link: '/home'
-            },
-            {
-                id: 12,
-                title: 'Software Company',
-                link: '/home_software_company'
-            },
-            {
-                id: 13,
-                title: 'Business Consulting',
-                link: '/home_business_consulting'
-            }
-        ]
+        link: {
+            pathname: "/",
+            search: "",
+            hash: "",
+        }
     },
     {
         id: 3,
-        title: 'Pages',
-        link: '/portfolio',
-        submenu: [
-            {
-                id: 31,
-                title: 'Case Studies',
-                link: '/portfolio'
-            },
-            {
-                id: 3222,
-                title: 'Our Pricing',
-                link: '/pricing'
-            },
-            {
-                id: 322,
-                title: 'About Us',
-                link: '/about'
-            },
-            {
-                id: 345,
-                title: 'Team',
-                link: '/team'
-            },
-            {
-                id: 3454,
-                title: 'Team Details',
-                link: '/team-single/Atticus-Sterling'
-            }
-        ]
+        title: 'Services',
+        link: {
+            pathname: "/",
+            search: "",
+            hash: "#services",
+        }
     },
     {
         id: 4,
-        title: 'Service',
-        link: '/service',
-        submenu: [
-            {
-                id: 41,
-                title: 'Service',
-                link: '/service'
-            },
-            {
-                id: 42,
-                title: 'Service Details',
-                link: '/service-single/IT-Management-Services'
-            }
-        ]
+        title: 'Portfolio',
+        link: {
+            pathname: "/portfolio",
+            search: "",
+            hash: "",
+        }
     },
     {
         id: 5,
-        title: 'Portfolio',
-        link: '/porfolio',
-        submenu: [
-            {
-                id: 51,
-                title: 'Portfolio',
-                link: '/porfolio'
-            },
-            {
-                id: 52,
-                title: 'Portfolio Details',
-                link: '/portfolio_details/Explore-Our-IT-Solutions'
-            }
-        ]
-    },
-    {
-        id: 6,
-        title: 'Blog',
-        link: '/blog',
-        submenu: [
-            {
-                id: 61,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
-                id: 62,
-                title: 'Blog Details',
-                link: '/blog-single/How-Our-Software-Solutions-Drive-Insights.'
-            },
-        ]
+        title: 'Team',
+        link: {
+            pathname: "/team",
+            search: "",
+            hash: "",
+        }
     },
     {
         id: 88,
-        title: 'Contact',
-        link: '/contact',
+        title: 'FAQ',
+        link: {
+            pathname: "/",
+            search: "",
+            hash: "#faq",
+        }
     }
-
-
 ]
 
 const MobileMenu = () => {
@@ -143,7 +76,7 @@ const MobileMenu = () => {
                                             {item.submenu.map((submenu, i) => {
                                                 return (
                                                     <ListItem key={i}>
-                                                        <Link onClick={ClickHandler} className="active"
+                                                        <Link className="active"
                                                             to={submenu.link}>{submenu.title}</Link>
                                                     </ListItem>
                                                 )

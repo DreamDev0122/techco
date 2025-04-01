@@ -15,7 +15,7 @@ const ServiceSection = (props) => {
     }
 
     return (
-        <section className="service_section pt-175 pb-80 bg-light section_decoration xb-hidden">
+        <section id="services" className="service_section pt-175 pb-80 bg-light section_decoration xb-hidden">
             <div className="container">
                 <div className="heading_block text-center">
                     <div className="heading_focus_text has_underline d-inline-flex" style={{ backgroundImage: `url(${Bg})` }}>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import icon1 from '../../images/icons/icon_wifi.svg'
 import icon2 from '../../images/icons/icon_dollar_2.svg'
 import icon3 from '../../images/icons/icon_chart.svg'
@@ -18,6 +18,7 @@ import MobileMenu from '../MobileMenu/MobileMenu'
 
 const Header2 = (props) => {
     const [mobailActive, setMobailState] = useState(false);
+    const location = useLocation();
 
     const ClickHandler = () => {
         window.scrollTo(10, 10);
@@ -42,6 +43,14 @@ const Header2 = (props) => {
         };
     }, []);
 
+    useEffect(() => {
+        if (location.hash) {
+            const element = document.querySelector(location.hash);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location]);
 
     return (
 
@@ -58,7 +67,7 @@ const Header2 = (props) => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-7 col-2">
-                           <nav className="main_menu navbar navbar-expand-lg">
+                            <nav className="main_menu navbar navbar-expand-lg">
                                 <div className="main_menu_inner collapse navbar-collapse justify-content-lg-center" id="main_menu_dropdown">
                                     <ul className="main_menu_list unordered_list justify-content-center">
                                         <li>
@@ -68,11 +77,11 @@ const Header2 = (props) => {
                                         </li>
                                         <li>
                                             <Link className="nav-link" to={{
-                                                        pathname: "",
-                                                        search: "",
-                                                        hash: "#services",
-                                                }}>
-                                                    Services
+                                                pathname: "",
+                                                search: "",
+                                                hash: "#services",
+                                            }}>
+                                                Services
                                             </Link>
                                         </li>
                                         <li>
@@ -86,21 +95,24 @@ const Header2 = (props) => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <a className="nav-link" href="/#faq">
+                                            <Link className="nav-link" to={{
+                                                pathname: "/",
+                                                hash: "#faq"
+                                            }}>
                                                 FAQ
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
-                            </nav> 
+                            </nav>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-5">
                             <ul className="header_btns_group unordered_list justify-content-end">
-                                 <li>
+                                <li>
                                     <button className="mobile_menu_btn" onClick={() => setMobailState(!mobailActive)} type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
                                         <i className="far fa-bars"></i>
                                     </button>
-                                </li> 
+                                </li>
                                 <li>
                                     <a className="btn" href="/#start">
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
@@ -123,7 +135,7 @@ const Header2 = (props) => {
                         </div>
                     </div>
                     <div className="xb-header-menu-backdrop" onClick={() => setMobailState(false)}></div>
-                </div> 
+                </div>
             </div>
         </header>
 

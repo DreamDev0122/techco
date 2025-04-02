@@ -11,7 +11,7 @@ import aIcon3 from '../../../images/avatar/avatar_3.webp'
 import aIcon4 from '../../../images/icons/icon_global.svg'
 import aIcon5 from '../../../images/shapes/shape_line.webp'
 import shape1 from '../../../images/shapes/shape_space_2.svg'
-
+import "./about.css";
 
 const About = (props) => {
 
@@ -23,7 +23,7 @@ const About = (props) => {
     <section className="about_and_case_section section_space section_decoration bg-dark" style={{ backgroundImage: `url(${Bg})` }}>
       <div className="container">
         <div className="row align-items-center justify-content-lg-between">
-          <div className="col-lg-7 order-lg-last" style={{overflowX: 'hidden'}}>
+          <div className="col-lg-7 order-lg-last about-us-img">
             <div className="about_image_2">
               <div className="image_wrap">
                 <img src={about1} alt="Techco - About" />

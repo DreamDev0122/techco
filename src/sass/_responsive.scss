@@ -573,7 +573,7 @@ Responsive For Mobile & Tablet Devices
 	.iconbox_block_2 {
 		background-color: var(--bs-light);
 	}
-	.megamenu_pages_wrapper {
+	.megamenu_pages_wrapper {about_image_2
 		>.row {
 			margin: -2px;
 			>[class*="col-"] {
@@ -1047,6 +1047,27 @@ Responsive For Mobile & Tablet Devices
 	}
 	.site_header_1 + main {
 		padding-top: 155px;
+	}
+
+	.about-us-img {
+		overflow: hidden;
+	}
+
+	.about_image_2 {
+		margin-left: 0px !important;
+	}
+
+	.about_funfact_info {
+		width: 100% !important;
+	}
+
+	.about_funfact_info .about_funfact_counter {
+		margin-left: 50px !important;
+		gap: 30px !important;
+	}
+
+	.about_funfact_info .about_funfact_counter .funfact_title {
+		text-align: center !important;
 	}
 }
 /* Media Screen 575px - End

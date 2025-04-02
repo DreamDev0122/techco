@@ -23,7 +23,7 @@ const About = (props) => {
     <section className="about_and_case_section section_space section_decoration bg-dark" style={{ backgroundImage: `url(${Bg})` }}>
       <div className="container">
         <div className="row align-items-center justify-content-lg-between">
-          <div className="col-lg-7 order-lg-last">
+          <div className="col-lg-7 order-lg-last" style={{overflowX: 'hidden'}}>
             <div className="about_image_2">
               <div className="image_wrap">
                 <img src={about1} alt="Techco - About" />

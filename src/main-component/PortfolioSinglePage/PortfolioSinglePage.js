@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Header from '../../components/header/Header';
+import Header from '../../components/Header2/Header2';
 import Project from '../../api/project';
 import { Link } from "react-router-dom";
 import { useParams } from 'react-router-dom';

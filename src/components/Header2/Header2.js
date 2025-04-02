@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom'
 import icon1 from '../../images/icons/icon_wifi.svg'
 import icon2 from '../../images/icons/icon_dollar_2.svg'
@@ -51,6 +51,27 @@ const Header2 = (props) => {
             }
         }
     }, [location]);
+
+
+    const menuRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (menuRef.current && !menuRef.current.contains(event.target)) {
+                setMobailState(false);
+            }
+        };
+
+        if (mobailActive) {
+            document.addEventListener("mousedown", handleClickOutside);
+        } else {
+            document.removeEventListener("mousedown", handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [mobailActive]);
 
     return (
 
@@ -114,8 +135,8 @@ const Header2 = (props) => {
                                 </li>
                                 <li>
                                     <Link className="btn" to={{
-                                                pathname: "/",
-                                                hash: "#start"
+                                        pathname: "/",
+                                        hash: "#start"
                                     }}>
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
                                         <span className="btn_icon">
@@ -127,16 +148,16 @@ const Header2 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="mobail-wrap">
+                <div ref={menuRef} className={`mobail-wrap ${mobailActive ? "active" : ""}`}>
                     <div className={`mobail-menu ${mobailActive ? "active" : ""}`}>
                         <div className="xb-header-menu-scroll">
                             <div className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobailState(!mobailActive)}></div>
                             <nav className="xb-header-nav">
-                                <MobileMenu />
+                                <MobileMenu mobileActie={mobailActive} setMobailState={(mobileActie) => setMobailState(mobileActie)} />
                             </nav>
                         </div>
                     </div>
-                    <div className="xb-header-menu-backdrop" onClick={() => setMobailState(false)}></div>
+                    <div className="xb-header-menu-backdrop" style={{  }} onClick={() => setMobailState(false)}></div>
                 </div>
             </div>
         </header>

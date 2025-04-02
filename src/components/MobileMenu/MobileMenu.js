@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useEffect, useRef, useState } from 'react';
 import List from "@mui/material/List";
 import ListItem from "@mui/material/List";
 import Collapse from "@mui/material/Collapse";
@@ -50,8 +50,9 @@ const menus = [
     }
 ]
 
-const MobileMenu = () => {
+const MobileMenu = (props) => {
 
+    const { setMobailState, mobailActive } = props;
     const [openId, setOpenId] = useState(0);
 
     const ClickHandler = () => {
@@ -64,8 +65,8 @@ const MobileMenu = () => {
                 return (
                     <ListItem className={item.id === openId ? 'active' : null} key={mn}>
                         {item.submenu ?
-                            <Fragment>
-                                <p onClick={() => setOpenId(item.id === openId ? 0 : item.id)}>{item.title}
+                            <Fragment onClick={() => setMobailState(false)}>
+                                <p>{item.title}
                                     <i className={item.id === openId ? 'fa fa-angle-up' : 'fa fa-angle-down'}></i>
                                 </p>
                                 <Collapse in={item.id === openId} timeout="auto" unmountOnExit>
@@ -83,7 +84,7 @@ const MobileMenu = () => {
                                     </List>
                                 </Collapse>
                             </Fragment>
-                            : <Link className="active"
+                            : <Link className="active" onClick={() => setMobailState(false)}
                                 to={item.link}>{item.title}</Link>
                         }
                     </ListItem>

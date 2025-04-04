@@ -32,9 +32,143 @@ import crustPizzaImg from '../images/portfolio/crustpizza.png'
 import taskDriveImg from '../images/portfolio/taskdrive.png'
 import lnbgImg from '../images/portfolio/lnbg.png'
 import gmxImg from '../images/portfolio/gmx.png'
+import drivoraImg from '../images/portfolio/drivora.vercel.app.png'
+import yohoImg from '../images/portfolio/yoho.png'
+import cryptoequateImg from '../images/portfolio/cryptoequate.com.png'
 
 const Project = [
-
+    {
+        id: '1',
+        pImg: drivoraImg,
+        title: 'Drivora',
+        slug: 'drivora',
+        thumb1: 'Blockchain',
+        thumb2: 'NFT Marketplace',
+        category: 'blockchain',
+        description: 'Drivora is a real asset NFT marketplace that enables seamless ownership transfer of physical assets, such as cars, through blockchain technology. By leveraging NFTs as proof of ownership, our marketplace bridges the gap between blockchain technology and real-world assets, unlocking new possibilities in decentralized commerce and asset tokenization.',
+        overview: [
+            'Real asset ownership through NFTs',
+            'Seamless transfer of physical assets via blockchain',
+            'Integration with Chainlink for verifiable data',
+            'Automated smart contract execution',
+            'Enhanced security and transparency'
+        ],
+        features: [
+            'NFT-based ownership transfer',
+            'Blockchain-powered asset authentication',
+            'Automated trustless transactions',
+            'Chainlink integration for secure data verification',
+            'Smart contract-based escrow system',
+            'Decentralized asset marketplace',
+            'Tamper-proof transaction records'
+        ],
+        technologies: [
+            'Solidity',
+            'Ethereum',
+            'Chainlink',
+            'IPFS',
+            'React',
+            'Node.js',
+            'Hardhat',
+            'The Graph'
+        ],
+        challenge: 'Traditional asset ownership transfers involve extensive paperwork, middlemen, and security risks, making the process inefficient and prone to fraud. Ensuring trust in transactions while maintaining transparency remains a key challenge in the automotive and physical asset marketplace.',
+        solution: 'Drivora introduces blockchain-powered asset ownership through NFTs, enabling a secure, transparent, and automated transfer of physical assets. By integrating Chainlink for verifiable and tamper-proof data, the platform ensures trustless execution of smart contracts, eliminating intermediaries and reducing transaction friction.',
+        results: [
+            'Eliminated need for intermediaries, reducing transaction costs',
+            'Improved transparency and security in asset transfers',
+            'Accelerated transaction speed through automated smart contracts',
+            'Enhanced trust with tamper-proof ownership verification',
+            'Seamless integration of blockchain with real-world assets'
+        ]
+    },
+    {
+        id: '2',
+        pImg: yohoImg,
+        title: 'Yoho',
+        slug: 'yoho',
+        thumb1: 'SaaS',
+        thumb2: 'Marketing',
+        category: 'saas',
+        description: 'Yoho is a cutting-edge SaaS platform designed specifically for digital marketing teams. It streamlines content production and task management, eliminating the chaos often associated with content workflows. With Yoho, marketing managers and content creators can collaborate seamlessly to ensure every project is executed efficiently.',
+        overview: [
+            'Streamlined content production for marketing teams',
+            'Seamless task management and collaboration',
+            'Access via app.joinyoho.com',
+            'Intuitive and efficient workflow automation',
+            'Reliable deployment on Vercel and Render'
+        ],
+        features: [
+            'Task management for marketing teams',
+            'Real-time collaboration',
+            'Content scheduling and tracking',
+            'Automated workflow management',
+            'User-friendly UI with Next.js and TypeScript',
+            'Scalable cloud-based infrastructure',
+            'Seamless integration with existing marketing tools'
+        ],
+        technologies: [
+            'React.js',
+            'Next.js',
+            'TypeScript',
+            'Express.js',
+            'MongoDB',
+            'AWS',
+            'Vercel',
+            'Render'
+        ],
+        challenge: 'Marketing teams often struggle with disorganized content workflows, inefficient task management, and collaboration issues. Traditional solutions lack flexibility, making it difficult to scale and adapt to fast-paced marketing needs.',
+        solution: 'Yoho provides an all-in-one SaaS platform that enables digital marketing teams to manage content and tasks efficiently. By leveraging Next.js, TypeScript, and MongoDB, it offers a high-performance, user-friendly experience while ensuring scalability and reliability through AWS, Vercel, and Render.',
+        results: [
+            'Reduced content production time by 50%',
+            'Improved team collaboration and efficiency',
+            'Streamlined task management for marketing managers',
+            'Enhanced workflow automation and tracking',
+            'Scalable and reliable deployment for long-term growth'
+        ]
+    },
+    {
+        id: '3',
+        pImg: cryptoequateImg,
+        title: 'Cryptoequate',
+        slug: 'copy-trading',
+        thumb1: 'Trading',
+        thumb2: 'AI-Powered',
+        category: 'trading',
+        description: 'An innovative copy trading platform designed to empower traders by allowing them to replicate successful strategies with ease. Integrated with the robust Cielo API, it delivers real-time data and AI-driven insights to enhance decision-making for both novice and experienced traders.',
+        overview: [
+            'Seamless replication of successful trading strategies',
+            'Real-time market data integration with Cielo API',
+            'AI-driven summaries from Telegram and YouTube',
+            'Comprehensive trading history and performance analysis',
+            'Intuitive platform for novice and experienced traders'
+        ],
+        features: [
+            'Copy trading with real-time strategy replication',
+            'AI-powered insights and trade recommendations',
+            'Automated Telegram and YouTube market summaries',
+            'Token and market trend analysis',
+            'Performance tracking and trade history visualization',
+            'Fast execution powered by Cielo API integration'
+        ],
+        technologies: [
+            'Next.js',
+            'TypeScript',
+            'FastAPI',
+            'PostgreSQL',
+            'Cielo API',
+            'AI-powered NLP processing'
+        ],
+        challenge: 'Traders struggle to keep up with fast-moving markets and analyze complex data from multiple sources. Existing platforms lack AI-driven insights and seamless strategy replication, making it difficult for users to make informed decisions.',
+        solution: 'The platform enables traders to automatically replicate profitable strategies while leveraging AI-powered summaries from Telegram and YouTube. By integrating Cielo API, it provides real-time data and trade execution, ensuring users stay ahead of market trends with minimal effort.',
+        results: [
+            'Increased trading efficiency with automated strategy replication',
+            'Enhanced decision-making with AI-powered insights',
+            'Real-time data integration for timely trade execution',
+            'Improved accessibility for novice traders',
+            'Comprehensive market analysis through Telegram and YouTube summaries'
+        ]
+    },
     {
         Id: '10',
         pImg: nektarImg,

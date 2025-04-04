@@ -33,11 +33,11 @@ const ContactSection = (props) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:javier@billullonex.com">
+                                    <a href="mailto:service@billullonex.com">
                                         <span className="icon">
                                             <i className="fa-solid fa-envelope"></i>
                                         </span>
-                                        <span className="text">javier@billullonex.com</span>
+                                        <span className="text">service@billullonex.com</span>
                                     </a>
                                 </li>
                                 <li>
@@ -45,7 +45,7 @@ const ContactSection = (props) => {
                                         <span className="icon">
                                             <i className="fa-solid fa-location-dot"></i>
                                         </span>
-                                        <span className="text">West Palm Beach , FL</span>
+                                        <span className="text">Melbourne, FL</span>
                                     </a>
                                 </li>
                             </ul>

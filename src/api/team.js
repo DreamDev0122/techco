@@ -20,7 +20,7 @@ const Teams = [
       name: 'Caitlen Macias',
       slug: 'Caitlen-Macias',
       title: 'Director of Business and Impact',
-      overview: "Caitlen Macias is an entrepreneur, activist, and trailblazer in the nonprofit space. For 10 years, she has advocated for equity, focusing on ending sexual violence and uplifting women's rights. In 2020, she cofounded the World Without Exploitation Youth Coalition, leading viral social campaigns and advocacy efforts against sexual exploitation and human trafficking. Caitlen has worked with organizations locally and nationally to improve their fundraising strategies and pass key legislation. She is the founder and CEO of Bot Queen, LLC, an AI technology company focused on social impact."
+      overview: "Caitlen Macias serves as the Account Manager at BillulloNEX, where she works closely with clients to turn ideas into action through strategic guidance and personalized support. With over a decade of experience in advocacy, fundraising, and leading impact-driven campaigns, she brings a unique ability to understand both the mission and the mechanics behind successful ventures. Caitlen is passionate about helping founders and teams feel supported, aligned, and empowered—making sure every project moves forward with purpose and clarity."
    },
    {
       Id: '3',

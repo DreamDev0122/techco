@@ -29,7 +29,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Write to us</h3>
                                 <p className="mb-0">
-                                    javier@billullonex.com
+                                    service@billullonex.com
                                 </p>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Our Office</h3>
                                 <p className="mb-0">
-                                    West Palm Beach, FL
+                                    Melbourne, FL
                                 </p>
                             </div>
                         </div>

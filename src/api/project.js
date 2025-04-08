@@ -35,6 +35,7 @@ import gmxImg from '../images/portfolio/gmx.png'
 import drivoraImg from '../images/portfolio/drivora.vercel.app.png'
 import yohoImg from '../images/portfolio/yoho.png'
 import cryptoequateImg from '../images/portfolio/cryptoequate.com.png'
+import baerscrestImg from '../images/portfolio/baerscrest.png'
 
 const Project = [
     {
@@ -167,6 +168,58 @@ const Project = [
             'Real-time data integration for timely trade execution',
             'Improved accessibility for novice traders',
             'Comprehensive market analysis through Telegram and YouTube summaries'
+        ]
+    },
+    {
+        id: "4",
+        pImg: baerscrestImg,
+        title: "Baer's Crest",
+        slug: "baers-crest",
+        thumb1: "Fintech",
+        thumb2: "Payments",
+        category: "fintech",
+        description: "Baer's Crest is a robust credit card payment gateway and backoffice platform built with the MNNN stack (MongoDB, Nest.js, Next.js, and Material UI), designed to securely process payments, manage merchant settings, and streamline acquirer integrations.",
+        overview: [
+          "Comprehensive credit card payment gateway and backoffice system",
+          "Built using MongoDB, Nest.js, Next.js, and Material UI",
+          "Led PCI DSS-compliant infrastructure and system design",
+          "Integrated 7+ payment acquirers with custom logic and fallback routing",
+          "Implemented real-time fraud prevention policies and smart routing",
+          "Built a secure and scalable webhook system with retry and block policies",
+          "Developed email notification system and feature-rich admin backoffice",
+          "Participated in every acquirer integration and critical feature implementation"
+        ],
+        features: [
+          "Payment request/capture/refund/void APIs",
+          "Real-time validation and fraud detection",
+          "Acquirer routing with fallback and smart rules",
+          "Admin-configurable merchant rules and fees",
+          "Secure webhook system with retries and blocking",
+          "Automated transactional emails with templating",
+          "2FA-secured backoffice with advanced filters",
+          "Sandbox environment for acquirer testing"
+        ],
+        technologies: [
+          "Next.js",
+          "Nest.js",
+          "Material UI",
+          "MongoDB",
+          "Cloudflare",
+          "Puppeteer",
+          "React Query",
+          "GitHub",
+          "Slack",
+          "Notion"
+        ],
+        challenge: "Integrating a non-PCI-compliant acquirer that only provided a payment widget, requiring a server-to-server emulation of client-side interaction while maintaining security and compliance.",
+        solution: "Developed a Puppeteer-powered server-side automation system to simulate widget-based payments while ensuring PCI DSS compliance. Collaborated with the acquirer's team to add support for automation. Designed a sandbox environment, robust webhook infrastructure, and smart routing to optimize transaction success rates and reduce friction.",
+        results: [
+          "Secured PCI DSS certification in the early stage of development",
+          "Integrated 7+ acquirers with unique APIs and sandbox testing",
+          "Reduced fraud attempts and transaction errors via smart policies",
+          "Improved gateway uptime and success rates through intelligent routing",
+          "Enabled real-time alerts and transparency for merchants via webhooks",
+          "Reduced API traffic by 40% using debouncing and React Query"
         ]
     },
     {

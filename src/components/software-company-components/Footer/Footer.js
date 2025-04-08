@@ -352,17 +352,7 @@ const Footer = (props) => {
           </p>
           <ul className="icon_list unordered_list">
             <li>
-              <Link to="/">
-                <span className="icon_list_icon">
-                  <i className="fa-solid fa-circle"></i>
-                </span>
-                <span className="icon_list_text">
-                  Terms of Up
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link to="/">
+              <Link to="/privacy">
                 <span className="icon_list_icon">
                   <i className="fa-solid fa-circle"></i>
                 </span>

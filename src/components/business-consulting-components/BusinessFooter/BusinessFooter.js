@@ -161,7 +161,7 @@ const BusinessFooter = (props) => {
         <div className="footer_bottom bg-primary text-white">
           <div className="container d-md-flex align-items-md-center justify-content-md-between">
             <p className="copyright_text m-0">
-              Copyright © 2025 BillulloNex, All rights reserved.
+              Copyright © 2025 CodelyticSoft, All rights reserved.
             </p>
             <p className="copyright_text m-0">
               Developed by <Link onClick={ClickHandler} to="/" target="_blank">XpressBuddy</Link>

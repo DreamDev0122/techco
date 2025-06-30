@@ -29,7 +29,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Write to us</h3>
                                 <p className="mb-0">
-                                    service@billullonex.com
+                                    nixon@codelyticsoft.com
                                 </p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title"> Call Us (USA)</h3>
                                 <p className="mb-0">
-                                    +(1) 305 204 0937
+                                    +(1) 254 221 4186
                                 </p>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Our Office</h3>
                                 <p className="mb-0">
-                                    Melbourne, FL
+                                    Alvin, TX
                                 </p>
                             </div>
                         </div>
@@ -201,7 +201,7 @@ const Footer = (props) => {
             {/* <div className="footer_bottom">
                 <div className="container d-md-flex align-items-md-center justify-content-md-between">
                     <p className="copyright_text m-0">
-                        Copyright © 2025 BillulloNex, All rights reserved.
+                        Copyright © 2025 CodelyticSoft, All rights reserved.
                     </p>
                     <p className="copyright_text m-0">
                         Developed by <Link onClick={ClickHandler} to="/">XpressBuddy</Link>

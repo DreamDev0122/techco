@@ -348,7 +348,7 @@ const Footer = (props) => {
       <div className="footer_bottom" style={{ backgroundImage: `url(${Bg2})` }}>
         <div className="container d-md-flex align-items-md-center justify-content-md-between">
           <p className="copyright_text m-0">
-            Copyright © 2025 BillulloNex, All rights reserved.
+            Copyright © 2025 CodelyticSoft, All rights reserved.
           </p>
           <ul className="icon_list unordered_list">
             <li>

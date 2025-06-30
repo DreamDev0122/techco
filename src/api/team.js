@@ -12,7 +12,7 @@ const Teams = [
       name: 'Javier Sanchez',
       slug: 'javier-sanchez',
       title: 'Technical Solutions Architect',
-      overview: 'Javier is an entrepreneur pioneering and implementing the latest technology to scale the impact of businesses. As the Technical Solutions Architect at BillulloNex, he specializes in understanding client needs and market demands to develop cutting-edge technological solutions. In his role as the founder and president of BillulloNex. With a background in private banking and extensive expertise in small business optimization, automation, and technology solutions, he brings invaluable insights to the team.'
+      overview: 'Javier is an entrepreneur pioneering and implementing the latest technology to scale the impact of businesses. As the Technical Solutions Architect at CodelyticSoft, he specializes in understanding client needs and market demands to develop cutting-edge technological solutions. In his role as the founder and president of CodelyticSoft. With a background in private banking and extensive expertise in small business optimization, automation, and technology solutions, he brings invaluable insights to the team.'
    },
    {
       Id: '2',
@@ -20,7 +20,7 @@ const Teams = [
       name: 'Caitlen Macias',
       slug: 'Caitlen-Macias',
       title: 'Director of Business and Impact',
-      overview: "Caitlen Macias serves as the Account Manager at BillulloNEX, where she works closely with clients to turn ideas into action through strategic guidance and personalized support. With over a decade of experience in advocacy, fundraising, and leading impact-driven campaigns, she brings a unique ability to understand both the mission and the mechanics behind successful ventures. Caitlen is passionate about helping founders and teams feel supported, aligned, and empowered—making sure every project moves forward with purpose and clarity."
+      overview: "Caitlen Macias serves as the Account Manager at CodelyticSoft, where she works closely with clients to turn ideas into action through strategic guidance and personalized support. With over a decade of experience in advocacy, fundraising, and leading impact-driven campaigns, she brings a unique ability to understand both the mission and the mechanics behind successful ventures. Caitlen is passionate about helping founders and teams feel supported, aligned, and empowered—making sure every project moves forward with purpose and clarity."
    },
    {
       Id: '3',
@@ -28,7 +28,7 @@ const Teams = [
       name: 'Thomas Nguyen',
       slug: 'Thomas-Nguyen',
       title: 'CTO',
-      overview: "Thomas is a multi-disciplinary engineer specializing in robotics, manufacturing, and software. Throughout his career, he has focused on simplifying complex topics and tools for others. In 2023, he founded ComfySpace, a software suite and training platform that makes robotics more accessible to non-roboticists. Thomas carefully analyzes each BillulloNex customer's needs and provides tailored software solutions."
+      overview: "Thomas is a multi-disciplinary engineer specializing in robotics, manufacturing, and software. Throughout his career, he has focused on simplifying complex topics and tools for others. In 2023, he founded ComfySpace, a software suite and training platform that makes robotics more accessible to non-roboticists. Thomas carefully analyzes each CodelyticSoft customer's needs and provides tailored software solutions."
    },
    {
       Id: '4',

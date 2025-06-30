@@ -33,7 +33,7 @@ const ContactSection = (props) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:nixon@codelyticsoft.com">
+                                    <a href="mailto:service@codelyticsoft.com">
                                         <span className="icon">
                                             <i className="fa-solid fa-envelope"></i>
                                         </span>

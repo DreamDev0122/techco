@@ -12,7 +12,7 @@ const Teams = [
       name: 'Javier Sanchez',
       slug: 'javier-sanchez',
       title: 'Technical Solutions Architect',
-      overview: 'Javier is an entrepreneur pioneering and implementing the latest technology to scale the impact of businesses. As the Technical Solutions Architect at BillulloNex, he specializes in understanding client needs and market demands to develop cutting-edge technological solutions. In his role as the founder and president of BillulloNex. With a background in private banking and extensive expertise in small business optimization, automation, and technology solutions, he brings invaluable insights to the team.'
+      overview: 'Javier is an entrepreneur pioneering and implementing the latest technology to scale the impact of businesses. As the Technical Solutions Architect at BillulloNex, he specializes in understanding client needs and market demands to develop cutting-edge technological solutions. In his role as the founder and president of BillulloNex. With a background in private banking and extensive expertise in  small & mid-size enterprise optimization, automation, and technology solutions, he brings invaluable insights to the team.'
    },
    {
       Id: '2',
